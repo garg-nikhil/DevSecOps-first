@@ -22,7 +22,7 @@ const GameHistory: React.FC<GameHistoryProps> = ({ history }) => {
   // Get result text based on winner
   const getResultText = (winner: string | null) => {
     if (winner) {
-      return `Player ${winner} won`;
+      return `OG Player ${winner} won`;
     }
     return "Draw";
   };
